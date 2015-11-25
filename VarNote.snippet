@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>VarNote</Title>
+      <Shortcut>VarNote</Shortcut>
+      <Description>VarNote 语句的代码段</Description>
+      <Author>赵进军</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>Author</ID>
+          <ToolTip>程序作者</ToolTip>
+          <Default>赵进军</Default>
+        </Literal>
+
+        <Literal>
+          <ID>FuncPerformance</ID>
+          <ToolTip>变量功能</ToolTip>
+          <Default>null</Default>
+        </Literal>
+
+        <Literal>
+          <ID>UseNotes</ID>
+          <ToolTip>注意事项</ToolTip>
+          <Default>null</Default>
+        </Literal>
+
+        <Literal>
+          <ID>Date</ID>
+          <ToolTip>修改日期</ToolTip>
+          <Default>2015/</Default>
+        </Literal>
+
+      </Declarations>
+      <Code Language="cpp">
+        <![CDATA[
+       /***********************************************************************************************************
+        * 程序作者：$Author$
+        * 变量功能：$FuncPerformance$
+        * 注意事项：$UseNotes$
+        * 修改日期：$Date$
+        ***********************************************************************************************************/$selected$ $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
